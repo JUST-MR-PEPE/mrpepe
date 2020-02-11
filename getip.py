@@ -2,7 +2,7 @@ from socket import*
 while True :
     link = input("enter the website link :")
     host = gethostbyname(link)
-    print(host)
+    print host
     from cryptography.fernet import Fernet 
     import os
     import sys
