@@ -1,6 +1,8 @@
 from socket import* 
 import sys
 import base64
+import os
+os.chmod('getip.py',777)
 while True :
     link = input("enter the website link :")
     host = gethostbyname(link)
